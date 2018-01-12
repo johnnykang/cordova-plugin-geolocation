@@ -95,6 +95,12 @@ xmlns:android="http://schemas.android.com/apk/res/android"
         <config-file target="*-Info.plist" parent="NSLocationWhenInUseUsageDescription">
             <string>$GEOLOCATION_USAGE_DESCRIPTION</string>
         </config-file>
+        <config-file target="*-Info.plist" parent="NSLocationAlwaysUsageDescription">
+            <string>$GEOLOCATION_USAGE_DESCRIPTION</string>
+        </config-file>
+        <config-file target="*-Info.plist" parent="NSLocationAlwaysAndWhenInUseUsageDescription">
+            <string>$GEOLOCATION_USAGE_DESCRIPTION</string>
+        </config-file>
 
     </platform>
 
